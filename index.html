@@ -1,0 +1,460 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#10152A">
+  <meta name="description" content="Hari Prasath's UI/UX design portfolio featuring mobile app designs, Figma prototypes, Canva projects and web projects.">
+  <title>Hari Prasath | UI/UX Designer Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="boy.png" type="image/x-icon">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <nav class="nav container">
+      <a href="#home" class="logo">HP<span>.</span></a>
+
+      <button class="menu-toggle" id="menuToggle"
+        aria-label="Toggle navigation" aria-expanded="false">
+        ☰
+      </button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#contact" class="nav-cta">Contact Me ↗</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-image reveal">
+          <div class="image-glow"></div>
+          <img src="profile.png"
+            alt="Hari Prasath profile photo"
+            class="profile-img"
+            onerror="this.style.display='none';this.nextElementSibling.style.display='grid'">
+          <div class="profile-fallback">HP</div>
+          <div class="floating-tag">✦ Open to opportunities</div>
+        </div>
+
+        <div class="hero-content reveal">
+          <p class="eyebrow"><span class="status-dot"></span> UI/UX DESIGNER · FRESHER</p>
+          <h1>Hi, I'm <span class="gradient-text">Hari Prasath.</span></h1>
+          <h2>I design digital experiences that make life simpler.</h2>
+          <p class="hero-description">
+            I’m an aspiring UI/UX designer passionate about creating
+            clean interfaces, intuitive user journeys and meaningful
+            digital experiences. I turn ideas into thoughtful designs
+            using Figma, Canva and front-end fundamentals.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">Explore My Work ↗</a>
+            <a href="#contact" class="btn btn-outline">Let's Connect</a>
+          </div>
+
+          <div class="hero-tools">
+            <span>Figma</span><span>Canva</span>
+            <span>HTML & CSS</span><span>JavaScript</span>
+          </div>
+        </div>
+      </div>
+
+      <a href="#about" class="scroll-indicator">SCROLL TO EXPLORE ↓</a>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section section-light" id="about">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">A LITTLE ABOUT ME</p>
+          <h2>Design with purpose.<br><span class="gradient-text">Build with passion.</span></h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-copy reveal">
+            <p>
+              I enjoy exploring how people interact with technology
+              and finding simple, creative ways to improve their experience.
+              My goal is to create interfaces that are attractive,
+              accessible and easy to use.
+            </p>
+            <p>
+              Alongside UI/UX design, I am learning web development
+              to better understand how designs become real products.
+              I enjoy learning by building projects and improving
+              my skills step by step.
+            </p>
+          </div>
+
+          <div class="about-cards reveal">
+            <article class="info-card">
+              <span class="card-icon">✦</span>
+              <h3>User-focused</h3>
+              <p>I value clarity, usability and intuitive experiences.</p>
+            </article>
+            <article class="info-card">
+              <span class="card-icon">◈</span>
+              <h3>Creative thinking</h3>
+              <p>I explore layouts, colors, typography and visual ideas.</p>
+            </article>
+            <article class="info-card">
+              <span class="card-icon">⌘</span>
+              <h3>Always learning</h3>
+              <p>I continuously improve through practice and feedback.</p>
+            </article>
+            <article class="info-card">
+              <span class="card-icon">↗</span>
+              <h3>Design to development</h3>
+              <p>I understand the basics of turning UI into web pages.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="section" id="education">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">MY BACKGROUND</p>
+          <h2>Education & <span class="gradient-text">Learning</span></h2>
+          <p>My academic journey and additional learning.</p>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-card reveal">
+            <div class="timeline-dot"></div>
+            <span class="timeline-date">UG</span>
+            <h3>B.E. Biomedical Engineering</h3>
+            <p class="muted">76% | 2026</p>
+            <p class="muted">Loyola Institute of Technology & Science</p>
+            <p>
+              Built a foundation in engineering, technology,
+              problem-solving and medical applications.
+            </p>
+          </article>
+
+          <article class="timeline-card reveal">
+            <div class="timeline-dot"></div>
+            <span class="timeline-date">HSC</span>
+            <h3>Musilum Higher Secondary School</h3>
+            <p class="muted">60% | 2022</p>
+            <!-- <p>
+              Practising wireframes, layouts, prototyping,
+              visual design and responsive web development.
+            </p> -->
+          </article>
+
+          <article class="timeline-card reveal">
+            <div class="timeline-dot"></div>
+            <span class="timeline-date">SSLC</span>
+            <h3>S.H.N.V. Higher Secondary School</h3>
+            <p class="muted">55% | 2020</p>
+            <!-- <p>
+              Python programming and embedded systems learning
+              complement my technical background.
+            </p> -->
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section section-light" id="skills">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">TOOLS & TECHNOLOGIES</p>
+          <h2>My creative <span class="gradient-text">toolkit.</span></h2>
+          <p>My current self-assessed skill levels. These are editable.</p>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skills-panel reveal">
+            <h3>Design Skills</h3>
+
+            <div class="skill">
+              <div class="skill-info"><span>Figma</span><span>75%</span></div>
+              <div class="skill-track"><div class="skill-fill" data-level="75%"></div></div>
+            </div>
+            <div class="skill">
+              <div class="skill-info"><span>Canva</span><span>85%</span></div>
+              <div class="skill-track"><div class="skill-fill" data-level="85%"></div></div>
+            </div>
+            <div class="skill">
+              <div class="skill-info"><span>UI Design</span><span>70%</span></div>
+              <div class="skill-track"><div class="skill-fill" data-level="70%"></div></div>
+            </div>
+            <div class="skill">
+              <div class="skill-info"><span>Wireframing & Prototyping</span><span>65%</span></div>
+              <div class="skill-track"><div class="skill-fill" data-level="65%"></div></div>
+            </div>
+            <div class="skill">
+              <div class="skill-info"><span>Visual Design</span><span>75%</span></div>
+              <div class="skill-track"><div class="skill-fill" data-level="75%"></div></div>
+            </div>
+          </div>
+
+          <div class="skills-panel reveal">
+            <h3>Development Skills</h3>
+
+            <div class="skill">
+              <div class="skill-info"><span>HTML5</span><span>75%</span></div>
+              <div class="skill-track"><div class="skill-fill" data-level="75%"></div></div>
+            </div>
+            <div class="skill">
+              <div class="skill-info"><span>CSS3</span><span>70%</span></div>
+              <div class="skill-track"><div class="skill-fill" data-level="70%"></div></div>
+            </div>
+            <div class="skill">
+              <div class="skill-info"><span>JavaScript</span><span>45%</span></div>
+              <div class="skill-track"><div class="skill-fill" data-level="45%"></div></div>
+            </div>
+            <div class="skill">
+              <div class="skill-info"><span>Responsive Design</span><span>65%</span></div>
+              <div class="skill-track"><div class="skill-fill" data-level="65%"></div></div>
+            </div>
+            <div class="skill">
+              <div class="skill-info"><span>Python</span><span>40%</span></div>
+              <div class="skill-track"><div class="skill-fill" data-level="40%"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tools-strip reveal">
+          <span>Figma</span><span>Canva</span><span>HTML5</span>
+          <span>CSS3</span><span>JavaScript</span><span>VS Code</span>
+          <span>GitHub</span><span>Responsive UI</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">SELECTED WORK</p>
+          <h2>Projects that bring <span class="gradient-text">ideas to life.</span></h2>
+          <p>Creative designs. Meaningful experiences.</p>
+        </div>
+
+        <!-- MOBILE APP PROJECTS -->
+        <div class="subheading reveal">
+          <h3>01 / Mobile App UI Designs</h3>
+          <p>Four concepts presented inside mobile frames.</p>
+        </div>
+
+        <div class="mobile-projects">
+
+          <article class="mobile-project reveal">
+            <div class="phone">
+              <div class="phone-notch"></div>
+              <div class="phone-screen">
+                <img src="grow-ui.png" alt="Mobile UI design project one"
+                  loading="lazy">
+              </div>
+            </div>
+            <h3>Grow App</h3>
+            <p>UI Design · Mobile Experience</p>
+            <a class="text-link prototype-link" href="https://www.figma.com/design/EBoZ9qKfoFGoRS0fh9lE56/Grow-App?t=se5jEa3ltD15yDkB-1"
+              target="_blank" rel="noopener noreferrer">View Figma Prototype ↗</a>
+          </article>
+
+          <article class="mobile-project reveal">
+            <div class="phone">
+              <div class="phone-notch"></div>
+              <div class="phone-screen">
+                <img src="grocery-mobile-app.png" alt="Mobile UI design project two"
+                  loading="lazy">
+              </div>
+            </div>
+            <h3>Fresh Day</h3>
+            <p>UI Design · Mobile Experience</p>
+            <a class="text-link prototype-link" href="https://www.figma.com/design/oXHyn0BkJ4QixgM0HoWai3/grocery-mobile-app?t=se5jEa3ltD15yDkB-1"
+              target="_blank" rel="noopener noreferrer">View Figma Prototype ↗</a>
+          </article>
+
+          <article class="mobile-project reveal">
+            <div class="phone">
+              <div class="phone-notch"></div>
+              <div class="phone-screen">
+                <img src="crave-quick.png" alt="Mobile UI design project three"
+                  loading="lazy">
+              </div>
+            </div>
+            <h3>Crave Quick</h3>
+            <p>UI Design · Mobile Experience</p>
+            <a class="text-link prototype-link" href="https://www.figma.com/design/DibToiS7xvc34zIJaeaA8z/crave-quick?node-id=0-1&t=XcJbjQMUqQj0V6Xs-1"
+              target="_blank" rel="noopener noreferrer">View Figma Prototype ↗</a>
+          </article>
+
+          <article class="mobile-project reveal">
+            <div class="phone">
+              <div class="phone-notch"></div>
+              <div class="phone-screen">
+                <img src="gpay-clone.png" alt="Mobile UI design project four"
+                  loading="lazy">
+              </div>
+            </div>
+            <h3>Gpay Clone App</h3>
+            <p>UI Design · Mobile Experience</p>
+            <a class="text-link prototype-link" href="https://www.figma.com/design/pkazh7WlS4OVLrMujz11Py/Gpay-clone-app-design?node-id=0-1&t=6E7c0WLsBDtYMzFv-1"
+              target="_blank" rel="noopener noreferrer">View Figma Prototype ↗</a>
+          </article>
+
+        </div>
+
+        <!-- CANVA PROJECTS -->
+        <div class="subheading reveal">
+          <h3>02 / Canva & Visual Design</h3>
+          <p>Posters, social media graphics, book covers and creative work.</p>
+        </div>
+
+        <div class="canva-grid">
+          <article class="canva-card reveal">
+            <img src="poster.png" alt="Canva design project one" loading="lazy">
+            <div class="canva-info"><h3>Grow App Poster </h3><p>Poster Design</p></div>
+          </article>
+          <article class="canva-card reveal">
+            <img src="grow-app-logo.png" alt="Canva design project two" loading="lazy">
+            <div class="canva-info"><h3>Grow</h3><p>logo design</p></div>
+          </article>
+          <article class="canva-card reveal">
+            <img src="play-think-logo.png" alt="Canva design project three" loading="lazy">
+            <div class="canva-info"><h3>play think</h3><p>logo design</p></div>
+          </article>
+          <article class="canva-card reveal">
+            <img src="hope-pages-logo.png" alt="Canva design project four" loading="lazy">
+            <div class="canva-info"><h3>hope pages</h3><p>logo design</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ACHIEVEMENTS -->
+    <section class="section section-light" id="achievements">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">BEYOND DESIGN</p>
+          <h2>Projects & <span class="gradient-text">Achievements.</span></h2>
+          <p>My work across publishing, web development and mobile apps.</p>
+        </div>
+
+        <div class="achievement-grid">
+
+          <article class="achievement-card reveal">
+            <div class="achievement-icon">📚</div>
+            <span class="project-type">Ebook</span>
+            <h3>ஏழ்மையில் பிறந்தேன் உன்னதம் நோக்கி சென்றேன்</h3>
+            <p>
+              நான் பிறந்தது ஏழ்மையில், வசதியில்லாமல், சந்தோஷம் 
+              குறைவாக, சிக்கல்ளோடு ஆன வாழ்க்கையில் தான்
+            </p>
+            <a class="text-link" href="https://www.amazon.in/dp/B0FK2J48ZH"
+              target="_blank" rel="noopener noreferrer">Explore My Books ↗</a>
+            <!-- Replace the link with your Amazon author page or book URL -->
+          </article>
+
+          <article class="achievement-card reveal">
+            <div class="achievement-icon">🐣</div>
+            <span class="project-type">WEB DEVELOPMENT</span>
+            <h3>Kids Park</h3>
+            <p>
+              A kids-focused website featuring stories, games
+              and learning content with a friendly visual style.
+            </p>
+            <a class="text-link" href="https://rihaaweb.github.io/kidspark/"
+              target="_blank" rel="noopener noreferrer">Visit Kids Park ↗</a>
+          </article>
+
+          <article class="achievement-card reveal">
+            <div class="achievement-icon">📱</div>
+            <span class="project-type">APP DEVELOPMENT</span>
+            <h3>Grow App</h3>
+            <p>
+              An educational app project designed to help graduates
+              practise programming and prepare for opportunities.
+            </p>
+            <a class="text-link" href="https://play.google.com/store/apps/details?id=com.mctechnopark.grow"
+              target="_blank" rel="noopener noreferrer">Explore on Play Store ↗</a>
+            <!-- Replace with your exact Grow App listing URL -->
+          </article>
+
+          <article class="achievement-card reveal">
+            <div class="achievement-icon">🎨</div>
+            <span class="project-type">DESIGN PRACTICE</span>
+            <h3>UI/UX Design Portfolio</h3>
+            <p>
+              Practising app screens, visual hierarchy, design
+              consistency and interactive Figma prototypes.
+            </p>
+            <a class="text-link" href="#projects">Explore Designs ↗</a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact-section" id="contact">
+      <div class="container contact-box reveal">
+        <p class="eyebrow">LET'S CONNECT</p>
+        <h2>Have an idea? Let's create something <span class="gradient-text">great.</span></h2>
+        <p>
+          I'm looking for opportunities to learn, collaborate
+          and grow as a UI/UX designer.
+        </p>
+
+        <!-- Replace with your real email address -->
+        <a href="mailto:hariprasath.m360@gmail.com" class="btn btn-primary">
+          Email Me ↗
+        </a>
+
+        <div class="social-links">
+          <!-- Replace # with your actual profile links -->
+          <a href="https://github.com/imhari360"
+             target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/imhari360"
+             target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+          <a href="https://www.figma.com/@imhari360"
+             target="_blank" rel="noopener noreferrer">Figma ↗</a>
+              <a href="https://www.amazon.in/stores/author/B0CGZGFM3H"
+             target="_blank" rel="noopener noreferrer">Amazon ↗</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <a href="#home" class="logo">HP<span>.</span></a>
+      <p>Designed & built with care by Hari Prasath.</p>
+      <a href="#home" class="back-top">Back to top ↑</a>
+    </div>
+    <div class="container copyright">
+      <p>© <span id="year"></span> Hari Prasath. All rights reserved.</p>
+      <p>UI/UX Design · Creativity · Continuous Learning</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
